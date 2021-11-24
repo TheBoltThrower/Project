@@ -27,6 +27,9 @@
 }
 .header-logo {
     cursor: pointer;
+    text-decoration: none;
+    color: rgb(128, 128, 128);
+
 }
 .logo {
    color: rgb(246, 218, 10);
