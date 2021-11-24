@@ -4,3 +4,7 @@ body {
     position: relative;
     box-sizing: border-box;
 }
+.main-base {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
