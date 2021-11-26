@@ -2,3 +2,4 @@
 @import "./components/header.css";
 @import "./components/card_section.css";
 @import "./generic/reset.css";
+@import "./design-tokens/colors.css";
