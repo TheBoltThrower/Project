@@ -1,4 +1,4 @@
-.section-1 {
+.card-section {
     position: relative;
     padding-bottom: 100px;
     box-sizing: border-box;
@@ -14,7 +14,7 @@
     position: relative;
  
 }
-.section1_list {
+.card_list {
     width: 1140px;
     margin: -162px auto 0;
     display: flex;
@@ -22,7 +22,7 @@
     position: relative;
     flex: 1;
 }
-.section1_grid {
+.card_grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr;
@@ -31,7 +31,7 @@
     min-height: 227px;
     grid-gap: 20px;
 }
-.section1-item {
+.card-item {
     color: #111111;
     background-color: #ffffff;
     display: flex;

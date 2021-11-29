@@ -1,0 +1,11 @@
+.mockup-section {
+    position: relative;
+    padding-bottom: 100px;
+    box-sizing: border-box;
+}
+.mockup_wrapper {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}

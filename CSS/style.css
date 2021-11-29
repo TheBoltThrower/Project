@@ -1,5 +1,6 @@
-
-@import "./components/header.css";
-@import "./components/card_section.css";
 @import "./generic/reset.css";
+@import "./components/header.css";
+@import "./components/card-section.css";
+@import "./components/mockup-section.css";
 @import "./design-tokens/colors.css";
+@import "./design-tokens/fonts.css";

@@ -38,7 +38,7 @@
 
 }
 .logo {
-   color: rgb(246, 218, 10);
+   color: var(--primary-clr);
    font-size: 20px;
 }
 .header-list {
