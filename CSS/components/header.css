@@ -47,7 +47,7 @@
     list-style-type: none;
     font-size: 16px;
     font-weight: 700;
-    font-family: 'PT Sans', sans-serif;
+    font-family: var(--primary-font);
     
 }
 .list-item {

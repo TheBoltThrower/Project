@@ -1,0 +1,14 @@
+.btn-1 {
+    background-color: var(--secondary-clr);
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    border-style: none;
+    padding: 16px 48px 16px 47px;   
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: var(--primary-font);
+    position: relative;
+}

@@ -57,7 +57,7 @@
     border-radius: 50%;
 }
 .item-txt {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--secondary-font);
     margin: 20px auto 0;
     line-height: 1.2;
     font-size: 16px;

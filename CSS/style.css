@@ -1,6 +1,10 @@
 @import "./generic/reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import "./components/header.css";
 @import "./components/card-section.css";
 @import "./components/mockup-section.css";
 @import "./design-tokens/colors.css";
 @import "./design-tokens/fonts.css";
+@import "./design-tokens/radius.css";
+@import "./elements/btn.css";
