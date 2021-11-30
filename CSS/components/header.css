@@ -40,7 +40,9 @@
 .logo {
    color: var(--primary-clr);
    font-size: 20px;
+   
 }
+
 .header-list {
     display: flex;
     align-items: center;
@@ -55,4 +57,34 @@
     border-bottom: 2px solid var(--primary-clr);
     padding-bottom: 10px ;
     color: rgb(128, 128, 128);
+}
+.user-menu {
+    position: absolute;
+    top: 95px;
+    left: 50px;
+    background-color:#fff;
+    padding: 16px 24px;
+    border-radius: 16px;
+    max-width: 110px;
+    z-index: 1;
+    border: 1px solid var(--primary-clr);
+    display: none;
+   
+}
+.user-link {
+    margin-bottom: 16px;
+    color: rgb(128, 128, 128);
+    font-size: 17px;
+    line-height: 28px;
+    text-decoration: none;
+    font-family: var(--primary-font);
+    transition:  1s ease;
+}
+.user-link:hover {
+    color: var(--primary-clr);
+}
+.user-disp {
+    display: block;
+    opacity: 0.5;
+    transition: all 20s ease;
 }
