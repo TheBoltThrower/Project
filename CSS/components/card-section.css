@@ -26,8 +26,6 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr;
-    grid-column-gap: 0px;
-    grid-row-gap: 30px; 
     min-height: 227px;
     grid-gap: 20px;
 }
