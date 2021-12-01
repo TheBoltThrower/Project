@@ -69,8 +69,22 @@
     z-index: 1;
     border: 1px solid var(--primary-clr);
     display: none;
-   
+    opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
 }
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0.8;
+	}
+}
+
 .user-link {
     margin-bottom: 16px;
     color: rgb(128, 128, 128);
@@ -78,13 +92,11 @@
     line-height: 28px;
     text-decoration: none;
     font-family: var(--primary-font);
-    transition:  1s ease;
+   
 }
 .user-link:hover {
     color: var(--primary-clr);
 }
 .user-disp {
     display: block;
-    opacity: 0.5;
-    transition: all 20s ease;
 }
