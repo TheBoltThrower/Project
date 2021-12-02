@@ -4,7 +4,7 @@
     background-color: var(--secondary-clr);
 }
 .project-wrapper {
-    width: 1140px;
+    width: 1230px;
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -28,8 +28,8 @@
 }
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr); 
+    grid-template-columns: repeat(3, 390px);
+    grid-template-rows: repeat(2, 385px); 
     grid-gap: 30px;
     margin-top: 50px;
 }
@@ -46,6 +46,7 @@
     font-family: var(--primary-font);  
     background-color: #fff;  
 }
+
 .gd-three {
     padding: 30px;
     border-radius: 15px;
@@ -56,8 +57,17 @@
     background-color: black;  
     color: white;
 }
+.gd-two {
+    display: flex;
+    background-image: url("https://images01.nicepage.com/c461c07a441a5d220e8feb1a/cb90b2e84307548d92caf296/trrt.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
 .grid_heading {
-    margin-top: 30px;
+    margin-top: 50px;
     font-size: 30px;
     font-weight: 400;
 }
@@ -73,10 +83,15 @@
 @keyframes zoom {
     0% {
         transform: scale(1);
-        box-shadow: 0 2px 5px #5ca4fb;
+        box-shadow: 0 5px 5px var(--txt-clr);
     }
     100% {
         transform: scale(1.1);
     }
 }
-
+.bg-img_a {
+    background-image: url("https://images01.nicepage.com/c461c07a441a5d220e8feb1a/7b41792002e653d393caf40e/vbvbvbvb.jpg")
+}
+.bg-img_b {
+    background-image: url("https://images01.nicepage.com/c461c07a441a5d220e8feb1a/5f2cac1f3cfd566a91b4507b/gffgfgfg-min.jpg");
+}

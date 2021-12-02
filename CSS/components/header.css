@@ -7,7 +7,7 @@
 .header {
     position: relative;
     max-width: 1440px;
-    height: 120px;
+    height: 80px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -18,7 +18,7 @@
      align-items: center;
      justify-content: space-between;
      margin: 0 auto;
-     padding: 28px 80px;
+     padding-top: 10px;
 
 }
 .header-left {
@@ -35,8 +35,11 @@
     cursor: pointer;
     text-decoration: none;
     color: rgb(128, 128, 128);
-
 }
+.header-logo:hover {
+    color: var(--primary-clr);
+}
+
 .logo {
    color: var(--primary-clr);
    font-size: 20px;
@@ -60,8 +63,8 @@
 }
 .user-menu {
     position: absolute;
-    top: 95px;
-    left: 50px;
+    top: 70px;
+    left: -30px;
     background-color:#fff;
     padding: 16px 24px;
     border-radius: 16px;
