@@ -46,24 +46,13 @@
     letter-spacing: 4px;
     margin-top: 15px; 
 }
-.design_title .sp {
-    cursor: pointer;
-    display: block;
-    position: relative;
-    transition: 0.5s;
+.design_txt {
+    width: 570px;
+    margin: 30px auto 0;
+    color: var(--txt-clr);
+    font-family: var(--primary-font);
+    line-height: 28.8px;
 }
-.design_title .sp::after {
-    content: '\25BD';
-    font-size: 30px; 
-    position: absolute;
-    opacity: 0;
-    margin-top: 35px;
-    transition: 0.5s;
-}  
-.design_title:hover .sp {
-    padding-bottom: 35px;
-}
-.design_title:hover .sp:after {
-    opacity: 1;
-    top:0;
+.design_btn {
+    margin: 50px auto 0 auto;
 }
