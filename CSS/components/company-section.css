@@ -1,0 +1,91 @@
+.company-section {
+    background-color: var(--secondary-clr);
+    position: relative;
+    box-sizing: border-box; 
+}
+.company_wrapper {
+    width: 1230px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.wrapper_layout {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    min-height: 712px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.layout_flx_a {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    flex: 58%;
+}
+.layout_flx_b {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    flex: 42%;
+    background-color: white;
+    border-radius: 15px;
+}
+.flx_a_inner {
+    padding: 30px;
+    flex: 1;
+    font-family: var(--primary-font);
+    line-height: 1.6;
+}
+.flx_a_header {
+    font-size: var(--heading-font);
+    font-weight: var(--heading-weight);
+    font-family: var(--secondary-font);
+}
+.flx_a_default {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 30px auto 0 0;
+    font-family: var(--secondary-font);
+}
+.flx_a_txt {
+    font-size: 18px;
+    line-height: 2.2;
+    margin-top: 20px;
+}
+.btn-2 {
+    background-color: black;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    border-style: none;
+    padding: 16px 48px 16px 47px;   
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: var(--primary-font);
+}
+.company_btn {
+    margin: 50px auto 0 0;
+}
+.flx_b_inner {
+    padding: 30px 30px 30px 50px;
+    flex: 1;
+    font-family: var(--primary-font);
+}
+.flx_b_list {
+    font-size: 18px;
+    line-height: 3;
+    font-weight: 700;
+    color: rgb(17, 17, 17);
+    margin: 20px 0 0;
+    list-style-type: none;
+    font-family: var(--primary-font);
+}
+.mg-l {
+    margin-left: 25px;
+}
