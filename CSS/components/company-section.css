@@ -78,7 +78,7 @@
     font-family: var(--primary-font);
 }
 .flx_b_list {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 3;
     font-weight: 700;
     color: rgb(17, 17, 17);
@@ -88,4 +88,25 @@
 }
 .mg-l {
     margin-left: 25px;
+}
+.flx_b_icon {
+    display: inline-block;
+    position: relative;
+    width: 16px;
+    min-height: 16px;
+    left: -10px;
+    fill: currentColor;
+    text-align: center;
+    
+}
+.b_icon {
+    display: inline-block;
+    vertical-align: middle;
+}
+.flx_b_shape {
+    width: 79px;
+    height: 79px;
+    margin: 87px auto 0 0;
+    background-color: var(--secondary-clr);
+    border-radius: 50%;
 }
