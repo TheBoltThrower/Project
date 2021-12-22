@@ -2,4 +2,29 @@
     position: relative;
     box-sizing: border-box; 
     padding-bottom: 100px;
+    margin-top: 100px;
+}
+.user_rectangle {
+    height: 408px;
+    background-color: var(--secondary-clr);
+}
+.rectangle_heading {
+    font-size: var(--heading-font);
+    font-weight: var(--heading-weight);
+    font-family: var(--secondary-font);
+    margin: -339px auto 0 700px;
+}
+.user_wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 1033px;
+    margin: 44px 687px 0 auto;
+    position: relative;
+    flex: 1;
+}
+.user_grid {
+    display: grid;
+    grid-template-columns: repeat(3, calc(33.3333% - 22px));
+    min-height: 515px;
+    grid-gap: 33px;
 }
