@@ -78,7 +78,7 @@
     text-align: center;
 }
 .grid_item:hover {
-    animation: zoom 1.5s forwards;
+    animation: zoom 0.8s forwards;
 }
 @keyframes zoom {
     0% {
@@ -86,7 +86,7 @@
         box-shadow: 0 5px 5px var(--txt-clr);
     }
     100% {
-        transform: scale(1.1);
+        transform: scale(1.05);
     }
 }
 .bg-img_a {

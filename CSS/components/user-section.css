@@ -1,8 +1,8 @@
 .user-section {
     position: relative;
     box-sizing: border-box; 
-    padding-bottom: 100px;
-    margin-top: 100px;
+    padding-bottom: 200px;
+    background-color: #f2f2f2;
 }
 .user_rectangle {
     height: 408px;
@@ -12,13 +12,13 @@
     font-size: var(--heading-font);
     font-weight: var(--heading-weight);
     font-family: var(--secondary-font);
-    margin: -339px auto 0 700px;
+    margin: -339px auto 0 calc(((100% - 1140px) / 2) + 60px);
 }
 .user_wrapper {
     display: flex;
     flex-direction: column;
     width: 1033px;
-    margin: 44px 687px 0 auto;
+    margin: 44px calc(((100% - 1140px) / 2) + 47px) 0 auto;
     position: relative;
     flex: 1;
 }
@@ -27,4 +27,51 @@
     grid-template-columns: repeat(3, calc(33.3333% - 22px));
     min-height: 515px;
     grid-gap: 33px;
+}
+.user_grid_item {
+    display: flex;
+    flex-direction: column;
+    color: #111111;
+    background-color: #ffffff;
+    padding: 30px 25px;
+    text-align: left;
+    border-radius: 10px;
+}
+.grid_item_header {
+    color: var(--txt-clr);
+    line-height: 1.8;
+    font-family: var(--primary-font);
+    font-size: 20px;
+}
+ .grid_item_img {
+    width: 147px;
+    height: 147px;
+    background-position: 50% 50%;
+    margin: 69px 173px 0 0;
+    object-fit: cover;
+    background-size: cover;
+    border-radius: var(--br);
+ } 
+.grid_item_txt {
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 30px;
+    color: var(--txt-clr);
+    font-family: var(--secondary-font);
+}
+.grid_item_footer {
+    font-weight: 400;
+    font-family: var(--secondary-font);
+    letter-spacing: 1px;
+    font-size: 18px;
+    padding-top: 10px;
+}
+.user_img_one {
+    background-image: url("https://images01.nicepage.com/c461c07a441a5d220e8feb1a/c09014f9e7715438bb869fbb/ds.jpg");
+}
+.user_img_two {
+    background-image: url("https://images01.nicepage.com/c461c07a441a5d220e8feb1a/980d881d762859b98207594a/hgghgh.jpg");
+}
+.user_img_three {
+    background-image: url("https://images01.nicepage.com/c461c07a441a5d220e8feb1a/a00f9926b1c35fc1a187a1f1/fgfg.jpg");
 }

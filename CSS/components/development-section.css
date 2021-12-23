@@ -1,0 +1,39 @@
+.development-section {
+    position: relative;
+    box-sizing: border-box; 
+    padding-bottom: 200px;
+    background-color: #f2f2f2;
+}
+.development_container {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+   
+}
+.development_heading {
+    font-size: var(--heading-font);
+    font-weight: var(--heading-weight);
+    margin: 60px auto 0;
+    font-family: var(--secondary-font);
+}
+.development_txt {
+    font-size: 20px;
+    width: 531px;
+    margin: 20px auto 0;
+    font-family: var(--primary-font);
+    text-align: center;
+}
+.development_grid {
+    display: grid;
+    grid-template-columns: repeat(3, calc(33.3333% - 16px));
+    min-height: 623px;
+    grid-gap: 24px;
+    margin-top: 50px;
+}
+.dev_grid_item {
+    color: #111111;
+    background-color: #ffffff;
+}
