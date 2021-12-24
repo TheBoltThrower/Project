@@ -1,7 +1,7 @@
 .development-section {
     position: relative;
     box-sizing: border-box; 
-    padding-bottom: 200px;
+    padding-bottom: 70px;
     background-color: #f2f2f2;
 }
 .development_container {
@@ -10,8 +10,7 @@
     margin-right: auto;
     display: flex;
     flex-direction: column;
-    position: relative;
-   
+    position: relative;  
 }
 .development_heading {
     font-size: var(--heading-font);
@@ -32,8 +31,49 @@
     min-height: 623px;
     grid-gap: 24px;
     margin-top: 50px;
+    position: relative;
 }
 .dev_grid_item {
+    display: flex;
+    flex-direction: column;
     color: #111111;
     background-color: #ffffff;
+    min-height: 299px;
+    padding-bottom: 30px;
+    border-radius: 10px;
 }
+.dev_grid_title {
+    min-height: 89px;
+    background-color: var(--secondary-clr);
+}
+.dev_grid_txt {
+    padding: 20px 30px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 28px;
+    margin-right: auto;
+    font-family: var(--secondary-font);
+}
+.dev_grid_list {
+    line-height: 2;
+    margin: 20px 30px 0;
+    font-family: var(--primary-font);
+    list-style-type: none;
+    font-size: 16px;
+}
+.dev_grid_list > li {
+    position: relative;
+    margin-left: 22.4px;
+}
+.svg_content {
+    display: inline-block;
+    vertical-align: middle;
+}
+.dev_list_icon {
+    position: absolute;
+    width: 16px;  
+    left: -24px; 
+    text-align: center;
+}
+
+
