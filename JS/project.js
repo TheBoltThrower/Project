@@ -19,7 +19,6 @@ popup.addEventListener('click', () => {
 });
 
 
-var reg = /[a-z]/ig;
 
 var patterns = {
     username: /^[a-z0-9]{5,12}$/i,
